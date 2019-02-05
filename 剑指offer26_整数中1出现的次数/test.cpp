@@ -13,11 +13,12 @@ public:
 			return 1;
 		}
 		for (i = 10; i < n; ++i){
-			while (i){
-				if (i % 10 == 1){
+			int temp = i;
+			while (temp){
+				if (temp % 10 == 1){
 					++result;
 				}
-				i = i / 10;
+				temp = temp / 10;
 			}
 		}
 		return result;
