@@ -25,7 +25,8 @@ public:
 };
 
 void TestFunc(){
-
+	Solution s;
+	cout << s.NumberOf1Between1AndN_Solution(10) << endl;
 }
 
 int main(){
