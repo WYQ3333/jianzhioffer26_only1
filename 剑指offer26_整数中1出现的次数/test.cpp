@@ -12,7 +12,7 @@ public:
 		if (n < 10){
 			return 1;
 		}
-		for (i = 10; i < n; ++i){
+		for (i = 10; i <= n; ++i){
 			int temp = i;
 			while (temp){
 				if (temp % 10 == 1){
@@ -27,7 +27,7 @@ public:
 
 void TestFunc(){
 	Solution s;
-	cout << s.NumberOf1Between1AndN_Solution(11) << endl;
+	cout << s.NumberOf1Between1AndN_Solution(13) << endl;
 }
 
 int main(){
